@@ -20,7 +20,8 @@ public class resultado extends SimpleTagSupport {
     
        
         getJspBody().invoke(name);
-        getJspContext().getOut().println("Soy "+name.toString()+ "Fecha: 18/03/2021");      
+        getJspContext().getOut().println("Soy "+name.toString()+ "Fecha: 18/03/2021");  
+        getJspContext().getOut().println("La hora es 11:30");
         JspFragment f = getJspBody();
     }
     
